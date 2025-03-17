@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="audio_tag">
+        <h2 style="text-align:center; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+            Listen This Music </h2>
+        <br>
+
+        <audio style=" border-radius: 30px; align-items: center; height: 30px;" controls autoplay loop
+            src="1.mp3"></audio>
+    </div>
+    <div>
+        <h1 style="color: rgb(255, 127, 127); text-align: center;">Snake Game</h1>
+        <br>
+        <h2 style="color:aqua">Devloped By Dikesh Singh</h2>
+    </div>
+    <div class="board"></div>
+    <div class="keys">
+        <div class="up key" data-key="ArrowUp">
+            <img src="up.svg" alt="up" id="up">
+        </div>
+        <div class="down key" data-key="ArrowDown">
+            <img src="down.svg" alt="down" id="down">
+        </div>
+        <div class="left key" data-key="ArrowLeft">
+            <img src="left.svg" alt="left" id="left">
+        </div>
+        <div class="right key" data-key="ArrowRight">
+            <img src="right.svg" alt="right" id="right">
+        </div>
+
+    </div>
+    <div class="btn">
+        <button onclick="reset()">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
